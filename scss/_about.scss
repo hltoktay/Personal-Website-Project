@@ -1,0 +1,12 @@
+.about {
+  height: 100%;
+  margin: auto;
+  position: fixed;
+  font-size: 18px;
+  font-family: 'Patua One', cursive;
+  background: url(../img/bg.png)  no-repeat center;
+
+  &-box {
+    margin: 10rem;
+  }
+}

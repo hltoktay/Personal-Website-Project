@@ -1,0 +1,29 @@
+.skill {
+  height: 100%;
+  margin: 2rem 6rem;
+  position: relative;
+
+
+  &-content {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 2fr);
+  }
+
+  &-image {
+    width: 340px;
+    height: 200px;
+    position: relative;
+    border: 3px solid #eee;
+    border-radius: 20px;
+    opacity: 10;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &-subtitle {
+    margin: 10px 10px;
+  }
+}

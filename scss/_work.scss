@@ -1,0 +1,11 @@
+.work {
+  height: 80%;
+	padding: 40px 30px;
+	margin-top: 20vh;
+
+	&-list {
+	  text-decoration: none;
+	  color: #000;
+	  transition: all .5s ease; 
+	}
+}

@@ -1,0 +1,76 @@
+
+/* SKILL SECTION END */
+
+#WORK {
+	height: 80%;
+	padding: 80px 30px;
+	margin-top: 20vh;
+	
+}
+
+.work h2 {
+	font-size: 2.5rem;
+	font-family: 'Patua One', cursive;
+	padding: 10px 0 10px;
+}
+.work p {
+	font-size: 18px;
+	font-family: 'Noto Serif', serif;
+}
+
+dl li {
+	font-size: 18px;
+	font-family: 'Noto Serif', serif;
+}
+
+dl li a {
+	padding: 5px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #000;
+	transition: all .5s ease;
+}
+
+span {
+    color: black;
+    cursor: pointer;
+  }
+  div #one, #two, #three {
+    margin: 3px;
+    width: 80px;
+    display: none;
+    height: 80px;
+    float: left;
+  }
+  #one {
+    background: #f00;
+  }
+  #two {
+    background: #0f0;
+  }
+  #three {
+    background: #00f;
+  }
+
+
+
+/* WORK SECTIN END */
+
+#CONTACT {
+	height: 100%;
+}
+.contact {
+	padding: 120px 0 50px;
+}
+
+
+/* CONTACT SECTION END */
+
+#BLOG {
+	height: 80%;
+}
+
+a .icon-blog {
+	font-size: 18px;
+	padding: 10px;
+}

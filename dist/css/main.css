@@ -1,0 +1,147 @@
+@charset "UTF-8";
+.home {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  font-family: 'Patua One', cursive;
+  background: url(../img/back1.png) no-repeat center center; }
+  .home-title {
+    margin-top: 16.5rem;
+    margin-left: 45%;
+    font-size: 3.5rem;
+    letter-spacing: 3px; }
+  .home-block {
+    height: 6px;
+    width: 60px;
+    margin-bottom: 1.5rem;
+    background-color: #333;
+    margin-left: 45%; }
+  .home-subtitle {
+    letter-spacing: 3px;
+    font-size: 22px;
+    margin-left: 45%; }
+
+.about {
+  height: 100%;
+  margin: auto;
+  position: fixed;
+  font-size: 18px;
+  font-family: 'Patua One', cursive;
+  background: url(../img/bg.png) no-repeat center; }
+  .about-box {
+    margin: 10rem; }
+
+.work {
+  height: 80%;
+  padding: 40px 30px;
+  margin-top: 20vh; }
+  .work-list {
+    text-decoration: none;
+    color: #000;
+    transition: all .5s ease; }
+
+.skill {
+  height: 100%;
+  margin: 2rem 6rem;
+  position: relative; }
+  .skill-content {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 2fr); }
+  .skill-image {
+    width: 340px;
+    height: 200px;
+    position: relative;
+    border: 3px solid #eee;
+    border-radius: 20px;
+    opacity: 10; }
+    .skill-image:hover {
+      opacity: 0.5; }
+  .skill-subtitle {
+    margin: 10px 10px; }
+
+.contact {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  .contact-title {
+    margin-top: 10rem; }
+
+.blog {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  .blog-card {
+    margin-top: 8rem; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+.openBtn {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  font-size: 22px;
+  z-index: 2;
+  color: #000;
+  transition: all .5s ease; }
+  .openBtn:hover {
+    font-size: 26px;
+    color: #fff; }
+
+.nav {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  /* bottom: 0; */
+  right: 0;
+  /* left :0; */
+  width: 0%;
+  /* height: 0; width: 100%; Js dosyasındaki kodları degistirmeyi unutma */
+  height: 100%;
+  background-color: #FFF;
+  z-index: 5;
+  transition: all .5s; }
+  .nav-bar {
+    margin-top: 5.5rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Monserrat';
+    overflow: hidden; }
+  .nav-link {
+    display: block;
+    /*inline-block */
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    transition: all .5s ease; }
+    .nav-link:hover {
+      font-size: 26px;
+      color: #a3afb2;
+      letter-spacing: 3px; }
+
+.closeBtn {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 22px;
+  color: #000;
+  transition: all .5s ease; }
+  .closeBtn:hover {
+    font-size: 26px;
+    color: #fff; }
